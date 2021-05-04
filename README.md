@@ -19,6 +19,7 @@ Characterisation of the emotional state of mind by studying the music consumptio
 
 - Requests or existing data set to associate the lyrics to the different songs.
 - Use the spotify API to add information to every song. We extract 14 features e.g.:
+
 | Dancebility | Energy | Key | Loudness | Mode | Speechiness | Acousticness | Instrumentalness | Liveness | Valence | Duration (in ms) | Tempo | Genres | Popularity |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0.627 | 0.871 | 9.0 | -8.742 | 0.0 | 0.0328 | 0.09620 | 0.358000 | 0.1090 | 0.9560 | 89.102 | 272707.0 | ['nu jazz', 'electro jazz'] | 42.0 |
