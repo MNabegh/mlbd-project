@@ -1,21 +1,21 @@
 # Machine learning for behavioural data - Project
 
-## 1. Topic
+## Topic
 
 Characterisation of the emotional state of mind by studying the music consumption of a user and use this data to built a refined personalized ephemeral recommender system.
 
-## 2. Research Questions
+## Research Questions
 
 - Is it possible to identify a emotional state of mind of a user by studying their music consumption? 
 - Is it possible to use them to improve a personalized and ephemeral recommender system? We could use a baseline 
 - Can we extract common topics of song lyrics and use them as meaningful features?
 
-## 3. Proposed dataset
+## Proposed dataset
 - Last.fm Dataset - 1K users
 - Spotify API: To find the mood of a song we can use the spotify API
 - Lyrics from different web pages
 
-## 4. Experimental plan
+## Experimental plan
 
 - Requests or existing data set to associate the lyrics to the different songs.
 - Use the spotify API to add information to every song. We extract 14 features e.g.:
@@ -33,7 +33,7 @@ modeling implementations)
 - Identify clusters of user doing time series analysis
 
 
-## 5. Methods
+## Methods
 
 - Requests to scrape the lyrics
 - Spotify API
