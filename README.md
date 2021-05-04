@@ -2,7 +2,7 @@
 
 ## Topic
 
-Characterisation of the emotional state of mind by studying the music consumption of a user and use this data to built a refined personalized ephemeral recommender system.
+Characterisation of the emotional state of mind by studying the music consumption of a user and leverage this data to built a refined personalized ephemeral recommender system.
 
 ## Research Questions
 
