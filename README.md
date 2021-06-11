@@ -27,20 +27,20 @@ Characterisation of the emotional state of mind by studying the music consumptio
 | 0.627 | 0.871 | 9.0 | -8.742 | 0.0 | 0.0328 | 0.09620 | 0.358000 | 0.1090 | 0.9560 | 89.102 | 272707.0 | ['nu jazz', 'electro jazz'] | 42.0 |
 
 
-Valence (Positive or negative mood of a song)
-- Cluster the songs by using the newely created features by using different clustering methods.
-- Cluster the songs by lyrics for topics or emotions (e.g spectral clustering, topic
-modeling implementations)
+    Valence (Positive or negative mood of a song)
+    - Cluster the songs by using the newely created features by using different clustering methods.
+    - Cluster the songs by lyrics for topics or emotions (e.g spectral clustering, topic
+    modeling implementations)
 
-- Use lyricsgenius to scrape the lyrics
-- Implement topic modeling using Latent Dirichlet Allocation (LDA) 
-- Evaluate the quality of the created topics
+    - Use lyricsgenius to scrape the lyrics
+    - Implement topic modeling using Latent Dirichlet Allocation (LDA) 
+    - Evaluate the quality of the created topics
 
-- Build a baseline collabritive filtering model based on shallow matrix factorization
-- Build a baseline deep collabritive filtering model
-- Build a hybrid deep model using collabritive filtering and content based features
-- Implement evaluation metrics for the recommender system
-- Perform in depth analysis for the recommender system
+    - Build a baseline collabritive filtering model based on shallow matrix factorization
+    - Build a baseline deep collabritive filtering model
+    - Build a hybrid deep model using collabritive filtering and content based features
+    - Implement evaluation metrics for the recommender system
+    - Perform in depth analysis for the recommender system
 
 ## How to??
 
