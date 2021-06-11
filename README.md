@@ -5,10 +5,9 @@
 Characterisation of the emotional state of mind by studying the music consumption of a user and leverage this data to built a refined personalized ephemeral recommender system.
 
 ## Research Questions
-
-- Is it possible to identify a emotional state of mind of a user by studying their music consumption? 
-- Is it possible to use them to improve a personalized and ephemeral recommender system? We could use a baseline 
+- To what extend do audio and lyrics based features improve a hybrid recommender system when compared to a simple collaborative filtering recommender system?
 - Can we extract common topics of song lyrics and use them as meaningful features?
+- Can we build a continous embedding for topics?
 
 ## Proposed dataset
 - Last.fm Dataset - 1K users
@@ -31,6 +30,10 @@ Valence (Positive or negative mood of a song)
 - Cluster the songs by lyrics for topics or emotions (e.g spectral clustering, topic
 modeling implementations)
 - Identify clusters of user doing time series analysis
+
+## ??How to??
+- 'scrape_spotify_info.py': Contains the code that uses the Spotify API to extract the audio features from the Spotify database. 
+- 'Genres_map.ipynb': The creation of the genres map is done in this notebook. It illustrates how we build the graph and construct the embeddings we will use for the recommender system.
 
 
 ## Methods
