@@ -42,7 +42,7 @@ modeling implementations)
 - Implement evaluation metrics for the recommender system
 - Perform in depth analysis for the recommender system
 
-## How to??
+## How to
 - 'scrape_spotify_info.py': Contains the code that uses the Spotify API to extract the audio features from the Spotify database. 
 - 'Genres_map.ipynb': The creation of the genres map is done in this notebook. It illustrates how we build the graph and construct the embeddings we will use for the recommender system.
 - 'exploratory_analysis.ipynb': provides a short summary on the used datasets and their features.
