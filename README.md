@@ -1,5 +1,8 @@
 # Machine learning for behavioural data - Project
 
+## Public link for the repository
+[Project repository](https://github.com/MNabegh/mlbd-project)
+
 ## Topic
 
 Characterisation of the emotional state of mind by studying the music consumption of a user and leverage this data to built a refined personalized ephemeral recommender system.
@@ -25,15 +28,25 @@ Characterisation of the emotional state of mind by studying the music consumptio
 
 
 Valence (Positive or negative mood of a song)
-- Create a baseline recommender system
 - Cluster the songs by using the newely created features by using different clustering methods.
 - Cluster the songs by lyrics for topics or emotions (e.g spectral clustering, topic
 modeling implementations)
-- Identify clusters of user doing time series analysis
+
+- Use lyricsgenius to scrape the lyrics
+- Implement topic modeling using Latent Dirichlet Allocation (LDA) 
+- Evaluate the quality of the created topics
+
+- Build a baseline collabritive filtering model based on shallow matrix factorization
+- Build a baseline deep collabritive filtering model
+- Build a hybrid deep model using collabritive filtering and content based features
+- Implement evaluation metrics for the recommender system
+- Perform in depth analysis for the recommender system
 
 ## ??How to??
 - 'scrape_spotify_info.py': Contains the code that uses the Spotify API to extract the audio features from the Spotify database. 
 - 'Genres_map.ipynb': The creation of the genres map is done in this notebook. It illustrates how we build the graph and construct the embeddings we will use for the recommender system.
+- 'exploratory_analysis.ipynb': provides a short summary on the used datasets and their features.
+- 'recommender_system.ipynb': contains the code that reads the lastFM data performs the preprocessing, and then trains the recommender system and performs the evaluation, this requires all data files except lastFM to be already available and accessible.
 
 
 ## Methods
@@ -41,5 +54,5 @@ modeling implementations)
 - Requests to scrape the lyrics
 - Spotify API
 - Create a baseline recommender system based on matrix factorization.
-- Explore the new features and try to cluster the time series of the users.
-- Use this information to improve the baseline recommender system.
+- Use this information to improve the baseline recommender system by building hybrid recommender system.
+- Implement
