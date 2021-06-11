@@ -44,10 +44,10 @@ modeling implementations)
 
 ## How to??
 
-- 'scrape_spotify_info.py': Contains the code that uses the Spotify API to extract the audio features from the Spotify database. 
-- 'Genres_map.ipynb': The creation of the genres map is done in this notebook. It illustrates how we build the graph and construct the embeddings we will use for the recommender system.
-- 'exploratory_analysis.ipynb': provides a short summary on the used datasets and their features.
-- 'recommender_system.ipynb': contains the code that reads the lastFM data performs the preprocessing, and then trains the recommender system and performs the evaluation, this requires all data files except lastFM to be already available and accessible.
+1. 'scrape_spotify_info.py': Contains the code that uses the Spotify API to extract the audio features from the Spotify database. 
+1. 'Genres_map.ipynb': The creation of the genres map is done in this notebook. It illustrates how we build the graph and construct the embeddings we will use for the recommender system.
+1. 'exploratory_analysis.ipynb': provides a short summary on the used datasets and their features.
+1. 'recommender_system.ipynb': contains the code that reads the lastFM data performs the preprocessing, and then trains the recommender system and performs the evaluation, this requires all data files except lastFM to be already available and accessible.
 
 
 ## Methods
